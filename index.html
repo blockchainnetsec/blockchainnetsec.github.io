@@ -21,7 +21,7 @@
 
     a.anchor{
         display: block;
-        content ="";
+        content: "";
         position: relative;
         top: -80px;
         visibility: hidden;
@@ -76,41 +76,29 @@
     <h3><p class="pmargin w3-text-indigo">Research Publications</p></h4>
     <h6><p class="pmargin">
 
-        <div class="pmargin w3-row" style="margin-bottom: 15px; display: flex; align-items: center;">
-            <!-- Left: Image -->
-            <div class="w3-col m2" style="padding-left: 30px;">
-                <img src="decentruth.png" alt="Publication 2" style="width:100%; max-width: 150px;">
-            </div>
-        
-            <!-- Right: Text -->
-            <div class="w3-col m10" style="line-height:1.2; padding-left: 10px;">
-                <strong>A Decentralized Truth Discovery Approach to the Blockchain Oracle Problem</strong><br>
+        <div style="margin-bottom: 15px; line-height: 1.5; margin-left: 30px;">
+            <img src="decentruth.png" alt="DecenTruth" style="float: left; margin-right: 15px; width: 30%; height: 200px;">
+            <h4 style="color: #2c5bb0; margin-top: 0; font-size: 1.2em;">A Decentralized Truth Discovery Approach to the Blockchain Oracle Problem</h4>
+            <p style="color: #2c5bb0; font-size: 1.0em; margin-top: -10px;">
                 Y. Xiao, N. Zhang, W. Lou, Y. T. Hou<br>
-                <i>IEEE International Conference on Computer Communications (INFOCOM), 2023</i><br>
-                <a href="https://yang-sec.github.io/publications/decentruth.pdf" target="_blank">[PDF]</a>
-            </div>
+                <i>IEEE International Conference on Computer Communications (INFOCOM), 2023</i>
+            </p>
+            <p>
+                For blockchain-based decentralization applications (DApps) to achieve real-world relevance, such as those for equity investment or insurance, they need to feed on data about the external world. However, the validity of the external data is beyond the jurisdiction of blockchain consensus. DApp participants may suffer huge monetary or operational loss if the DApp feeds on data from faulty or malicious sources. This is known as the "external data challenge" or "oracle problem". Our solution, <a href="https://yang-sec.github.io/publications/decentruth.pdf" style="color: #ff0000; text-decoration: none;">DecenTruth</a>, leverages truth discovery (TD)—a data mining method—and asynchronous Byzantine fault-tolerant (BFT) consensus to realize a fully decentralized, truth-discovering data feed system. It enables a group of mutually distrustful DApp participants to jointly estimate the ground truths of data objects and reliability of external sources from noisy and potentially conflicting (Byzantine) multi-sourced inputs.
+            </p>
         </div>
-
-
-
-        <div class="pmargin w3-row" style="margin-bottom: 15px; display: flex; align-items: center;">
-            <!-- Left: Image -->
-            <div class="w3-col m2" style="padding-left: 30px;">
-                <img src="bijack.png" alt="Publication 1" style="width:100%; max-width: 150px;">
-            </div>
-        
-            <!-- Right: Text -->
-            <div class="w3-col m10" style="line-height:1.2; padding-left: 10px;">
-                <strong>Bijack: Breaking Bitcoin Network with TCP Vulnerabilities</strong><br>
+    
+        <div style="margin-bottom: 15px; line-height: 1.5; margin-left: 30px;">
+            <img src="bijack.png" alt="Bijack" style="float: left; margin-right: 15px; width: 30%; height: 200px;">
+            <h4 style="color: #2c5bb0; margin-top: 0; font-size: 1.2em;">Bijack: Breaking Bitcoin Network with TCP Vulnerabilities</h4>
+            <p style="color: #2c5bb0; font-size: 1.0em; margin-top: -10px;">
                 S. Li, S. Shi, Y. Xiao, C. Zhang, Y. T. Hou, W. Lou<br>
-                <i>European Symposium on Research in Computer Security (ESORICS), 2023</i><br>
-                <a href="https://shaoyu-li.github.io/files/bijack.pdf" target="_blank">[PDF]</a>
-            </div>
+                <i>European Symposium on Research in Computer Security (ESORICS), 2023</i>
+            </p>
+            <p>
+                Bitcoin relies on a decentralized peer-to-peer network that is critical for its consensus and security. However, this network is vulnerable to various attacks, such as eclipse and topology inference attacks, which typically require direct access to network traffic. These traditional attacks are limited by their need for on-path access and the associated high costs. We propose <a href="https://shaoyu-li.github.io/files/bijack.pdf" style="color: #ff0000; text-decoration: none;">Bijack</a>, an off-path TCP hijacking attack that targets the Bitcoin network by exploiting a TCP protocol vulnerability in certain Linux systems. Bijack allows attackers to hijack TCP connections between Bitcoin nodes without requiring direct access to the communication path, enabling them to inject malicious data or terminate connections. This attack method demonstrates significant potential to disrupt the Bitcoin consensus by enabling topology inference and eclipse attacks without the limitations of traditional on-path attacks.
+            </p>
         </div>
-
-        
-        
-
     </p></h6>
         
     <h3><p class="pmargin w3-text-indigo">Acknowledgment</p></h4>
